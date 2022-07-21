@@ -5,8 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* list-style: none; */
-  /* font-family: 'metropolis.medium' ; */
+  list-style: none;
 }
 html,
 body {
@@ -60,22 +59,25 @@ nav {
 }
 .btn-j {
   border-radius: 15px;
+  color: black;
+  background-color: #d9d9d9;
 }
 
-.btn-j a {
+.btn-j {
   text-decoration: none;
-  color: #000;
-  font-family: 'metropolis medium';
+  color: black;
+  font-family: 'metropolis';
+}
+.btn-j:hover {
+  background-color: #312357;
+  color: white;
 }
 .text-j {
   position: relative;
   color: #fff;
   padding-top: 200px;
 }
-.btn-j p {
-  font-family: 'metropolis.medium';
-  font-weight: 300;
-}
+
 .text-j img {
   width: 400px;
   height: auto;
