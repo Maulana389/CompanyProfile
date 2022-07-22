@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 html,
 body {
@@ -143,12 +143,24 @@ ol {
   text-transform: capitalize;
   color: #000;
   font-family: 'metropolis';
-  padding-top: 0px;
+  padding: 5px;
   color: #fff;
-  font-size: 42px;
+  font-size: 35px;
 }
 .executive {
   margin-left: 250px;
+}
+.operation {
+  margin-left: 30px;
+}
+.technical {
+  margin-left: 140px;
+}
+.marketing {
+  margin-left: 30px;
+}
+.finance {
+  margin-left: 30px;
 }
 /* card */
 .card-team-profile {
@@ -424,6 +436,40 @@ footer {
 }
 
 /* responsive  */
+@media screen and (max-width: 1360px) {
+  .executive {
+    margin-left: 190px;
+  }
+  .operation {
+    margin-left: 0px;
+  }
+  .technical {
+    margin-left: 105px;
+  }
+  .marketing {
+    margin-left: 0px;
+  }
+  .finance {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .executive {
+    margin-left: 190px;
+  }
+  .operation {
+    margin-left: 0px;
+  }
+  .technical {
+    margin-left: 75px;
+  }
+  .finance {
+    margin-left: 0px;
+  }
+  .marketing {
+    margin-left: 0px;
+  }
+}
 @media screen and (max-width: 1199px) {
   #carousel .contain-event .card .card-body .comingSoon-txt {
     font-size: 20px !important;
@@ -436,9 +482,21 @@ footer {
     width: 400px;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1115px) {
   .executive {
-    margin-left: 190px;
+    margin-left: 125px;
+  }
+  .operation {
+    margin-left: -30px;
+  }
+  .technical {
+    margin-left: 50px;
+  }
+  .marketing {
+    margin-left: -30px;
+  }
+  .finance {
+    margin-left: -30px;
   }
 }
 
@@ -490,7 +548,8 @@ footer {
   .executive,
   .operation,
   .technical,
-  .finance {
+  .finance,
+  .marketing {
     margin-left: auto;
     margin-right: auto;
   }
@@ -545,7 +604,8 @@ footer {
   .executive,
   .operation,
   .technical,
-  .finance {
+  .finance,
+  .marketing {
     margin-left: auto;
     margin-right: auto;
   }
@@ -583,6 +643,9 @@ footer {
   .text-1 p {
     text-align: center;
     font-size: 13px;
+  }
+  .card-bd ul {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 768px) {
