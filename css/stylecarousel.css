@@ -150,17 +150,20 @@ ol {
 .executive {
   margin-left: 250px;
 }
-.operation {
-  margin-left: 30px;
-}
-.technical {
-  margin-left: 140px;
-}
-.marketing {
-  margin-left: 30px;
-}
-.finance {
-  margin-left: 30px;
+
+@media screen and (max-width: 1920px) {
+  .operation {
+    margin-left: 30px;
+  }
+  .technical {
+    margin-left: 140px;
+  }
+  .marketing {
+    margin-left: 30px;
+  }
+  .finance {
+    margin-left: 30px;
+  }
 }
 /* card */
 .card-team-profile {
@@ -436,7 +439,7 @@ footer {
 }
 
 /* responsive  */
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1367px) {
   .executive {
     margin-left: 190px;
   }
