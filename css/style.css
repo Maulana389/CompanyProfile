@@ -152,7 +152,7 @@ ol {
 }
 
 @media screen and (max-width: 1920px) {
-  .operation {
+  /* .operation {
     margin-left: 30px;
   }
   .technical {
@@ -163,12 +163,12 @@ ol {
   }
   .finance {
     margin-left: 30px;
-  }
+  } */
 }
 /* card */
 .card-team-profile {
   border-radius: 20px;
-  margin: 30px 20px;
+  margin: 30px auto;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   width: 300px;
   height: 310px;
@@ -442,34 +442,10 @@ footer {
   .executive {
     margin-left: 190px;
   }
-  .operation {
-    margin-left: 0px;
-  }
-  .technical {
-    margin-left: 105px;
-  }
-  .marketing {
-    margin-left: 0px;
-  }
-  .finance {
-    margin-left: 0px;
-  }
 }
 @media screen and (max-width: 1280px) {
   .executive {
     margin-left: 190px;
-  }
-  .operation {
-    margin-left: 0px;
-  }
-  .technical {
-    margin-left: 75px;
-  }
-  .finance {
-    margin-left: 0px;
-  }
-  .marketing {
-    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -488,7 +464,7 @@ footer {
   .executive {
     margin-left: 125px;
   }
-  .operation {
+  /* .operation {
     margin-left: -30px;
   }
   .technical {
@@ -499,7 +475,7 @@ footer {
   }
   .finance {
     margin-left: -30px;
-  }
+  } */
 }
 
 @media screen and (max-width: 991px) {
@@ -613,7 +589,7 @@ footer {
   }
   .card-team-profile {
     width: auto;
-    padding: auto;
+    /* padding: auto; */
   }
   .card-bd ul {
     margin-top: 10px;
