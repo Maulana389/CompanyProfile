@@ -538,9 +538,9 @@ footer {
     margin-top: 15px;
   }
 }
-@media  screen and (min-width:768px) and (max-width:884px) {
+@media  screen and (max-width:884px) {
   .jumbotron{
-    background-size: 100%;
+    background-size: 100% 70%;
   }
   
 }
@@ -603,10 +603,6 @@ footer {
   .profile {
     padding-top: 100px;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> about
   .about{
     height: 350px;
   }
@@ -667,4 +663,5 @@ footer {
     background-color: white;
     color: black;
   }
+ 
 }
