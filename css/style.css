@@ -597,6 +597,14 @@ footer {
   .profile {
     padding-top: 100px;
   }
+
+  .about{
+    height: 350px;
+  }
+
+  .about p{
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 999px) {
   #footer .container-fluid .row .footer-left .ESFooter {
