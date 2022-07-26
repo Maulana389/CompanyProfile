@@ -148,7 +148,7 @@ ol {
   font-size: 35px;
 }
 .executive {
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -462,7 +462,7 @@ footer {
 }
 @media screen and (max-width: 1115px) {
   .executive {
-    margin-left: 125px;
+    margin-left: 140px;
   }
   /* .operation {
     margin-left: -30px;
