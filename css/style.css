@@ -505,7 +505,7 @@ footer {
     font-size: 15px;
   }
   .jumbotron {
-    background-size: 100% 60%;
+    background-size: 100% 100%;
   }
   .about {
     background-size: 100% 100%;
@@ -538,6 +538,12 @@ footer {
     margin-top: 15px;
   }
 }
+@media  screen and (min-width:768px) and (max-width:884px) {
+  .jumbotron{
+    background-size: 100%;
+  }
+  
+}
 
 @media screen and (max-width: 541px) {
   #carousel .contain-event .dayEnglish .card-body .title-21day-carousel {
@@ -549,14 +555,14 @@ footer {
   }
   .jumbotron {
     width: 100%;
-    height: 894px;
+    height: 590px;
     background-size: 100% 100%;
     text-align: center;
   }
   .text-j {
     position: relative;
     color: #fff;
-    padding-top: 350px;
+    padding-top: 250px;
   }
   .lead {
     margin-top: 5px;
@@ -597,7 +603,10 @@ footer {
   .profile {
     padding-top: 100px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> about
   .about{
     height: 350px;
   }
@@ -632,6 +641,10 @@ footer {
   }
   .card-bd ul {
     font-size: 10px;
+  }
+
+  .about p{
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 768px) {
